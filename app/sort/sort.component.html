@@ -1,0 +1,11 @@
+<div class="dropup" ngbDropdown>
+  <button class="btn btn-outline-primary  btn-xs dropdown-toggle" type="button" id="dropdownMenu1" ngbDropdownToggle  data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Sort By
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" ngbDropdownMenu>
+    <li (click)="sortByName()" > title</li>
+    <li (click)="sortBypriceLow()" >price: low to high</li>
+    <li (click)="sortBypriceHigh()" >price: high to low</li>
+  </ul>
+</div>

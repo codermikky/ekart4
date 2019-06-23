@@ -1,0 +1,11 @@
+ul>li {
+  cursor: pointer;
+}
+li {
+  font-weight: normal;
+  text-align: match-parent ;
+}
+button {
+  border: none;
+}
+
